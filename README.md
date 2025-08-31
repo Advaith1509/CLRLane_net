@@ -11,8 +11,7 @@ Unlike classical cost functions used for label assignment, LaneNet **learns to m
 
 ## Demo
 
-> *(Insert pipeline diagram here)*  
-> *(Insert sample detection comparison: CLRNet vs LaneNet)*  
+ 
 
 ---
 
@@ -43,7 +42,7 @@ LaneNet replaces this handcrafted label assignment step with a **learned neural 
 
 ## Architecture
 
-> *(Insert architecture diagram: CLRNet + LaneNet block)*
+
 
 **Pipeline Overview**:
 1. **Backbone Feature Extraction**  
@@ -84,7 +83,7 @@ We use the **CULane dataset**, a benchmark for lane detection research:
 | DLA34      | CLRNet       | 74.13   | -             |
 |            | **CLRLaneNet** | **77.09** | **+2.96%**     |
 
-> *(Insert F1 score comparison bar chart)*
+
 
 ---
 
