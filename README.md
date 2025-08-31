@@ -47,6 +47,22 @@ LaneNet replaces this handcrafted label assignment step with a **learned neural 
 - **Higher Confidence Thresholds**: Improves detection confidence, enabling stricter filtering for better precision.
 
 ---
+## ***Project Report***
+
+For a comprehensive overview of our methodology, experiments, and results, refer to the full **Project Report**:
+
+> [LaneNet_Final_Report.pdf](LaneNET_final.pdf)
+
+The report covers:
+- Background and motivation for LaneNet  
+- Detailed explanation of CLRNet integration  
+- Curve-focused dataset preparation strategy  
+- Training procedure and hyperparameter choices  
+- Quantitative and qualitative analysis  
+- Comparison with state-of-the-art methods  
+- Future work and research directions
+
+---
 
 ## ***Architecture***
 
