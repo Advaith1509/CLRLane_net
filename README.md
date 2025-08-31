@@ -69,7 +69,7 @@ LaneNet replaces this handcrafted label assignment step with a **learned neural 
 
 ## ***Dataset***
 
-We use the **CULane dataset(https://xingangpan.github.io/projects/CULane.html)**, a benchmark for lane detection research:
+We use the **CULane dataset**, a benchmark for lane detection research:
 
 | Subset           | Description                                | Images |
 |------------------|--------------------------------------------|--------|
@@ -78,7 +78,9 @@ We use the **CULane dataset(https://xingangpan.github.io/projects/CULane.html)**
 | Test              | Categorized into 9 scenarios (normal, crowd, dazzle, shadow, curve, etc.) | ~34K   |
 | Curve Subset      | Focused dataset of **8,677 curved-lane images** for pretraining LaneNet. | 8,677  |
 
-Download CULane. Then extract them to `$CULANEROOT`. Create a link to the `data` directory.
+> Link to the dataset - ***https://xingangpan.github.io/projects/CULane.html***
+
+Download CULane dataset. Then extract them to `$CULANEROOT`. Create a link to the `data` directory.
 ```bash
 cd $CLRMATCHNET_ROOT
 mkdir -p data
